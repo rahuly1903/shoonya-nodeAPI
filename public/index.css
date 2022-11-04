@@ -1,0 +1,68 @@
+/************************************************
+ Common css
+************************************************/
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background: linear-gradient(107.91deg, #eaabf0 7.37%, #4623e9 95.19%);
+}
+html,
+body {
+  min-height: 100%;
+}
+.container {
+  max-width: 95%;
+  width: 1440px;
+}
+.button {
+  padding: 8px 20px;
+  border: 1px solid #9197b3;
+  font-size: 18px;
+  line-height: 1;
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-green {
+  background-color: #4caf50;
+  color: #fff;
+}
+input,
+button {
+  height: 40px;
+  text-align: center;
+}
+/************************************************
+ Place order module 
+************************************************/
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #fafbff;
+}
+/* Sidebar */
+
+.sidebar {
+  background-color: #fff;
+  min-height: 700px;
+}
+
+/************************************************
+ Place new order section 
+************************************************/
+.order-punch-section {
+  overflow: hidden;
+  border: 1px solid #4caf50;
+}
+.header-top {
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  font-weight: 600;
+}
+.button {
+}

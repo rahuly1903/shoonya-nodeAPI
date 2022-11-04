@@ -1,0 +1,12 @@
+// prettier-ignore
+USERID = "FA0000"
+// prettier-ignore
+PASSWORD = "123456789"
+// prettier-ignore
+TWO_FA = "123456"
+// prettier-ignore
+VENDOR_C = "FA0000_U";
+// prettier-ignore
+API_SECRET = "12345678921547989821"
+// prettier-ignore
+IMEI = "123456789"

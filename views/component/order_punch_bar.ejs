@@ -1,0 +1,103 @@
+<div class="order-punch-section bg-white rounded">
+  <div class="header-top">
+    <h2>Header</h2>
+    <!-- BANKNIFY 13OCT22 38000 PE -->
+  </div>
+  <form class="w-full p-4">
+    <div class="flex flex-wrap -mx-3">
+      <div class="w-full md:w-1/12 px-3">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-medium"
+          for="grid-lots"
+        >
+          Lots(25)
+        </label>
+        <input
+          class="block w-full text-gray-700 border border-gray-400 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-700"
+          id="grid-lots"
+          type="text"
+          value="1"
+          placeholder="Lots"
+        />
+      </div>
+
+      <div class="w-full md:w-2/12 px-3">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-medium"
+          for="grid-strike-price"
+        >
+          Strike
+        </label>
+        <input
+          class="block w-full text-gray-700 border border-gray-400 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-700"
+          id="grid-strike-price"
+          type="text"
+          value="38000"
+          placeholder="38000"
+        />
+      </div>
+
+      <div class="w-full md:w-2/12 px-3">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-medium"
+          for="grid-date"
+        >
+          Date
+        </label>
+        <input
+          class="block w-full text-gray-700 border border-gray-400 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-700"
+          id="grid-date"
+          type="text"
+          value="13 Oct 22"
+        />
+      </div>
+
+      <div class="w-full md:w-1/12 px-3">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-medium"
+          for="grid-ce-pe"
+        >
+          CE/PE
+        </label>
+        <input
+          class="block w-full text-gray-700 border border-gray-400 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-700"
+          id="grid-ce-pe"
+          type="text"
+          value="CE"
+        />
+      </div>
+
+      <div class="w-full md:w-3/12 px-3">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-medium"
+          for="grid-price"
+        >
+          Price
+        </label>
+        <input
+          class="block w-full text-gray-700 border border-gray-400 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-700"
+          id="grid-price"
+          type="text"
+          value=""
+          placeholder="price"
+          autocomplete="off"
+        />
+      </div>
+      <div class="w-full md:w-3/12 px-3">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-medium text-opacity-0"
+          for="grid-price"
+        >
+          Button
+        </label>
+        <button
+          class="button form-button rounded bg-green font-semibold w-full"
+          type="button"
+          id="place-sl-order"
+        >
+          Click
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
